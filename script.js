@@ -12,7 +12,7 @@ addTaskBtn.addEventListener('click', () => {
         return;
     }
     if (taskText.length > 20) {
-        alert('Задача не должна превышать 100 символов.');
+        alert('Задача не должна превышать 20 символов.');
         return;
     }
     const task = {
